@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Roborto;
+}
+.header{
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+}
+.header img{
+    height: 100%;
+}
+.header div{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    margin-left: 4vmax;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 2vmax;
+    font-family: Roborto;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+nav a:hover{
+    color: rgb(194, 220, 220);
+}
+.header svg{
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.header svg:hover{
+    color: rgb(206, 193, 193);
+}
+.banner{
+    height: 580px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner h1{
+    font-size: 4rem;
+    cursor: pointer;
+}
+.banner p{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+}
+.row{
+    padding: 1rem;
+    background-color: #000;
+    color: white;
+}
+.row h2{
+    margin: 0.3rem;
+    font-weight: 400;
+    font-family: Roborto;
+}
+.row div{
+    display: flex;
+    overflow-x: auto;
+    margin: 10px;
+}
+.card{
+    margin: 0.25rem;
+    width: 210px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px) scale(1.1);
+}
+.button{
+    margin: 20px;
+}
+.button .play{
+    font-size: 1.8rem;
+    margin: 13px;
+    padding: 5px;
+    transition: transform 0.5s;
+}
+.button .mylist{
+    font-size: 1.8rem;
+    margin: 13px;
+    padding: 5px;
+    transition: transform 0.5s;
+}
+.button .mylist:hover{
+    transform: translateX(-5px) scale(1.1);
+}
+.button .play:hover{
+    transform: translateX(-5px) scale(1.1);
+}
+.genreBox a{
+    text-decoration: none;
+    margin: 2px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+.genreBox a:hover{
+    background-color: rgba(14, 14, 16, 0.068);
+    color: white;
+}
+.genreBox{
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+}
+.genreBox h2{
+    margin-bottom: 20px;
+}
